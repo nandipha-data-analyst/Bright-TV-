@@ -1,10 +1,10 @@
-_Project Overview_
+**Project Overview**
 
 This repository contains an end-to-end data analytics project focused on optimizing subscriber consumption, understanding viewer behavior, and driving growth for BrightTV.
 Using historical datasets containing granular subscriber demographics and transactional viewing records, this project delivers actionable, data-driven insights to assist the Customer Value Management (CVM) team in expanding BrightTV’s subscription base and maximizing platform engagement.
 
 
-_Business Problem & Objectives_
+**Business Problem & Objectives**
 
 BrightTV’s executive leadership has set a critical objective: scale the platform’s subscriber base this financial year. To do this, the CVM team needs full visibility into the hidden drivers behind user consumption patterns, geographic/demographic preferences, and content performance.
 Without deep analytics, the business risks:
@@ -13,7 +13,7 @@ Without deep analytics, the business risks:
 • Inefficient Marketing ROI: Deploying broad subscriber acquisition strategies instead of hyper-targeted, demographic-specific digital campaigns.
 
 
-_Key Analytical Deliverables_:
+**Key Analytical Deliverables**:
 
 1. Trend Analysis: Map user and usage trends across months, days of the week, and hours.
 2. Consumption Drivers: Isolate demographic, geographic, and temporal factors influencing platform viewing.
@@ -40,8 +40,8 @@ The project applies a structured ETL (Extract, Transform, Load) pipeline to inge
    - Interactive Analytics Model -> CVM Strategic Pitch Deck & Executive Dashboard
 
 
-_Data Stack & Core Tooling_
+**Data Stack & Core Tooling**
 
-• SQL / Databricks SQL: Deployed for high-performance data modeling, multi-table relation joins, and structural data validation metrics.
+• SQL / Databricks SQL: Deployed for high-performance data modeling, multi-table relational joins, and structural data validation metrics.
 • Microsoft Power BI / Advanced Excel: Utilized to map data schemas, structure data hierarchies, and compile interactive stakeholder dashboards.
-• Microsoft PowerPoint: Utilized to compile the final strategic 20-minute presentation tailored specifically for executive leadership and the CEO [INDEX: 0.1.4].
+• Microsoft PowerPoint: Utilized to compile the final strategic 20-minute presentation tailored specifically for executive leadership and the CEO.
