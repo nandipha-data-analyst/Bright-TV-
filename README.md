@@ -1,4 +1,4 @@
-#Project Overview
+## **Project Overview
 
 This repository contains an end-to-end data analytics project focused on optimizing subscriber consumption, understanding viewer behavior, and driving growth for BrightTV.
 Using historical datasets containing granular subscriber demographics and transactional viewing records, this project delivers actionable, data-driven insights to assist the Customer Value Management (CVM) team in expanding BrightTV’s subscription base and maximizing platform engagement.
