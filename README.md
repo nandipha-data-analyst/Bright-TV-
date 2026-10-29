@@ -28,14 +28,14 @@ The project applies a structured ETL (Extract, Transform, Load) pipeline to inge
    - User Profiles: Subscriber Master (ID, Name, Gender, Race, Age, Province, Social Handles)
    - Viewership Transactions: Log Layer (UserID, Channel, UTC Timestamps, Viewing Duration)
             │
-            ▼
+            
 [ETL & DATA ENGINEERING LAYER]
    - 1. Structural Localisation: Convert timestamp logs from UTC to SA Standard Time (SAST = UTC + 2 Hours)
    - 2. Feature Engineering: Cast text time durations (HH:MM:SS) into absolute numeric viewing minutes
    - 3. Data Cleaning: Clean missing profile values; flag extreme outliers (e.g., Age > 100)
    - 4. Relational Join: Combine master metrics using an INNER JOIN on [UserID]
             │
-            ▼
+            
 [DIAGNOSTIC & PRESCRIPTIVE REPORTING]
    - Interactive Analytics Model -> CVM Strategic Pitch Deck & Executive Dashboard
 
